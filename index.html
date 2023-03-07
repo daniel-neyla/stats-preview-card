@@ -33,39 +33,41 @@
     />
   </head>
   <body>
-    <main>
-      <div class="stats-card">
-        <picture class="card-img">
-          <img
-            src="./images/image-header-mobile.jpg"
-            alt="People working at a table with their computers "
-          />
-        </picture>
-        <div class="card-content">
-          <h1>
-            Get <span class="highlight">insights</span> that help your business
-            grow.
-          </h1>
-          <p>
-            Discover the benefits of data analytics and make better descisions
-            regarding revenue, customer experience, and overall efficiency.
-          </p>
-          <div class="stats">
-            <div class="stat">
-              <span class="number">10k+</span>
-              <span class="type">companies</span>
-            </div>
-            <div class="stat">
-              <span class="number">314</span>
-              <span class="type">templates</span>
-            </div>
-            <div class="stat">
-              <span class="number">12M+</span>
-              <span class="type">queries</span>
-            </div>
-          </div>
-        </div>
+    <div class="stats-card">
+      <picture class="card-img">
+        <source
+          srcset="./images/image-header-desktop.jpg"
+          media="(min-width: 540px)"
+        />
+        <img
+          src="./images/image-header-mobile.jpg"
+          alt="People working at a table with their computers "
+        />
+      </picture>
+      <div class="card-content">
+        <h1>
+          Get <span class="highlight">insights</span> that help your business
+          grow.
+        </h1>
+        <p>
+          Discover the benefits of data analytics and make better descisions
+          regarding revenue, customer experience, and overall efficiency.
+        </p>
+        <ul>
+          <li>
+            <h2 class="number">10k+</h2>
+            <span class="type">companies</span>
+          </li>
+          <li>
+            <h2 class="number">314</h2>
+            <span class="type">templates</span>
+          </li>
+          <li>
+            <h2 class="number">12M+</h2>
+            <span class="type">queries</span>
+          </li>
+        </ul>
       </div>
-    </main>
+    </div>
   </body>
 </html>
